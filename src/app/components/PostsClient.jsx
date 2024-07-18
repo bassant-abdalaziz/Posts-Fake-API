@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Post from "@/app/components/Post";
-import Pagination from "../components/pagination";
+import Pagination from "./Pagination";
 
 const PostsClient = ({ data }) => {
   //Pagination
